@@ -1,5 +1,16 @@
-const CardAvion = ({data})=>{
-    const {Imagen, AltitudMáximaDeCrucero, AñoDeFabricación, CapacidadDePasajeros, Envergadura, Longitud, Marca, Modelo, NúmeroDeRegistro, NúmeroDeSerie, RangoDeVuelo, Tipo, TipoDeMotor, Valor, VelocidadMáxima, proveedorInfo} = data;
+import axios from "axios";
+import { useState } from "react";
+
+const CardAvion = ({data, setLoading})=>{
+    const [isEditing, setEditing] = useState(false)
+    const oneDelete = (_id)=>{
+        setLoading(true)
+        axios.delete(`http://localhost:3309/api/aviones/${_id}`)
+        .then((response)=>{
+            console.log(response,"eliminado");
+        })
+    };
+    const {Imagen, AltitudMáximaDeCrucero, AñoDeFabricación, CapacidadDePasajeros, Envergadura, Longitud, Marca, Modelo, NúmeroDeRegistro, NúmeroDeSerie, RangoDeVuelo, Tipo, TipoDeMotor, Valor, VelocidadMáxima, proveedorInfo, _id} = data;
     return (
         <div className="content">
             <div className="cont-image">
@@ -24,6 +35,8 @@ const CardAvion = ({data})=>{
                     <p><span>Velocidad Máxima:</span> {VelocidadMáxima}</p>
                     <p><span>Valor:</span> {Valor}</p>
                     <p><span>Proveedor:</span> {proveedorInfo[0].Nombre}</p>
+                    <button type="submit" onClick={()=>oneDelete(_id)}>Eliminar</button>
+                    <button onClick={()=>setData(data)}>Actualizar</button>
                 </details>
             </div>
         </div>

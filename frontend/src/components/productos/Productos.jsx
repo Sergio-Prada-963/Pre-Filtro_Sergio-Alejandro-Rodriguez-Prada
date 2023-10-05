@@ -44,14 +44,15 @@ const Productos = ()=>{
         content = (
             <div className="container">
                 {dataMoto.map((e)=>(
-                    <Card data={e} />
+                    <Card data={e} setLoading={setLoading} />
                 ))}
                 {dataAvion.map((e)=>(
-                    <CardAvion data={e}/>
+                    <CardAvion data={e} setLoading={setLoading} />
                 ))}
             </div>
         )
     }
+
     return (
         <React.Fragment>
             <div className="section">

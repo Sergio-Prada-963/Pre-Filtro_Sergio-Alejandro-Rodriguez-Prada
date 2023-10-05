@@ -30,7 +30,7 @@ router.post('/',[
 validateDocuments], postAvion);
 
 router.delete('/:id',[
-    validJWT,
+    /* validJWT, */
     param('id','No es un id valido').isMongoId(),
     param('id','Debe tener un id').notEmpty(),
 validateDocuments], deleteAvion);

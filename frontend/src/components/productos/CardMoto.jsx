@@ -1,5 +1,14 @@
-const Card = ({data})=>{
-    const {Imagen, Marca, Modelo, Color, PotenciaHP, Precio, Tipo, Cilindraje, Ano, NumeroDeSerie, proveedorInfo} = data;
+import axios from "axios";
+
+const Card = ({data, setLoading})=>{
+    const oneDelete = (_id)=>{
+        setLoading(true)
+        axios.delete(`http://localhost:3309/api/motos/${_id}`)
+        .then((response)=>{
+            console.log(response,"eliminado");
+        })
+    };
+    const {Imagen, Marca, Modelo, Color, PotenciaHP, Precio, Tipo, Cilindraje, Ano, NumeroDeSerie, proveedorInfo, _id} = data;
     return (
         <div className="content">
             <div className="cont-image">
@@ -19,6 +28,7 @@ const Card = ({data})=>{
                     <p><span>Año:</span> {Ano}</p>
                     <p><span>Número De Serie:</span> {NumeroDeSerie}</p>
                     <p><span>Proveedor:</span> {proveedorInfo[0].Nombre}</p>
+                    <button type="submit" onClick={()=>oneDelete(_id)}>Eliminar</button>
                 </details>
             </div>
         </div>

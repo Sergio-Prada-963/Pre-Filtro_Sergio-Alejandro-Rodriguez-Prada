@@ -29,7 +29,7 @@ router.post('/',[
 validateDocuments], postMotos);
 
 router.delete('/:id',[
-    validJWT,
+    /* validJWT, */
     param('id','No es un id valido').isMongoId(),
     param('id','Debe tener un id').notEmpty(),
 validateDocuments], deleteMoto);

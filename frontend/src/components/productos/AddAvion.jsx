@@ -128,7 +128,7 @@ export default function ModalAvion() {
               <label for="check">Producto Disponible?</label>
               <input type='checkbox' id='check' onChange={()=>setEstado(!Estado)} />
             </div>
-            <button type="button" onClick={()=>postAvion()}>Añadir</button>
+            <button type="submit" onClick={()=>postAvion()}>Añadir</button>
         </form>
       </Modal>
     </div>

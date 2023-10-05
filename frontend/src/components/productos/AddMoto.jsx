@@ -107,7 +107,7 @@ export default function ModalMoto() {
               <label for="check">Producto Disponible?</label>
               <input type='checkbox' id='check' onChange={()=>setEstado(!Estado)} />
             </div>
-            <button type="button" onClick={()=>postMoto()}>Añadir</button>
+            <button type="submit" onClick={()=>postMoto()}>Añadir</button>
         </form>
       </Modal>
     </div>
