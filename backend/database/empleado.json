@@ -1,0 +1,205 @@
+[
+    {
+        "Nombre": "Juan Pérez",
+        "NúmeroId": "A1234567",
+        "Teléfono": "1234567890",
+        "Cargo": "Gerente de Ventas",
+        "Email": "juan.perez@example.com"
+    },
+    {
+        "Nombre": "María González",
+        "NúmeroId": "B2345678",
+        "Teléfono": "2345678901",
+        "Cargo": "Analista de Marketing",
+        "Email": "maria.gonzalez@example.com"
+    },
+    {
+        "Nombre": "Luis Rodríguez",
+        "NúmeroId": "C3456789",
+        "Teléfono": "3456789012",
+        "Cargo": "Ingeniero de Software",
+        "Email": "luis.rodriguez@example.com"
+    },
+    {
+        "Nombre": "Ana López",
+        "NúmeroId": "D4567890",
+        "Teléfono": "4567890123",
+        "Cargo": "Contadora",
+        "Email": "ana.lopez@example.com"
+    },
+    {
+        "Nombre": "Pedro Sánchez",
+        "NúmeroId": "E5678901",
+        "Teléfono": "5678901234",
+        "Cargo": "Diseñador Gráfico",
+        "Email": "pedro.sanchez@example.com"
+    },
+    {
+        "Nombre": "Laura Torres",
+        "NúmeroId": "F6789012",
+        "Teléfono": "6789012345",
+        "Cargo": "Especialista en Recursos Humanos",
+        "Email": "laura.torres@example.com"
+    },
+    {
+        "Nombre": "Carlos García",
+        "NúmeroId": "G7890123",
+        "Teléfono": "7890123456",
+        "Cargo": "Analista de Datos",
+        "Email": "carlos.garcia@example.com"
+    },
+    {
+        "Nombre": "Marta Martínez",
+        "NúmeroId": "H8901234",
+        "Teléfono": "8901234567",
+        "Cargo": "Ingeniera de Proyectos",
+        "Email": "marta.martinez@example.com"
+    },
+    {
+        "Nombre": "Javier Pérez",
+        "NúmeroId": "I9012345",
+        "Teléfono": "9012345678",
+        "Cargo": "Asistente Administrativo",
+        "Email": "javier.perez@example.com"
+    },
+    {
+        "Nombre": "Isabel Rodríguez",
+        "NúmeroId": "J0123456",
+        "Teléfono": "0123456789",
+        "Cargo": "Desarrollador Web",
+        "Email": "isabel.rodriguez@example.com"
+    },
+    {
+        "Nombre": "Daniel Sánchez",
+        "NúmeroId": "K1234567",
+        "Teléfono": "11234567890",
+        "Cargo": "Analista Financiero",
+        "Email": "daniel.sanchez@example.com"
+    },
+    {
+        "Nombre": "Carmen López",
+        "NúmeroId": "L2345678",
+        "Teléfono": "22345678901",
+        "Cargo": "Coordinadora de Ventas",
+        "Email": "carmen.lopez@example.com"
+    },
+    {
+        "Nombre": "Manuel González",
+        "NúmeroId": "M3456789",
+        "Teléfono": "32345678901",
+        "Cargo": "Especialista en Marketing Digital",
+        "Email": "manuel.gonzalez@example.com"
+    },
+    {
+        "Nombre": "Sofía Pérez",
+        "NúmeroId": "N4567890",
+        "Teléfono": "42345678901",
+        "Cargo": "Ingeniera de Software",
+        "Email": "sofia.perez@example.com"
+    },
+    {
+        "Nombre": "Pablo Rodríguez",
+        "NúmeroId": "O5678901",
+        "Teléfono": "52345678901",
+        "Cargo": "Contador",
+        "Email": "pablo.rodriguez@example.com"
+    },
+    {
+        "Nombre": "Elena Sánchez",
+        "NúmeroId": "P6789012",
+        "Teléfono": "62345678901",
+        "Cargo": "Diseñadora Gráfica",
+        "Email": "elena.sanchez@example.com"
+    },
+    {
+        "Nombre": "Andrés López",
+        "NúmeroId": "Q7890123",
+        "Teléfono": "72345678901",
+        "Cargo": "Especialista en Recursos Humanos",
+        "Email": "andres.lopez@example.com"
+    },
+    {
+        "Nombre": "Lorena García",
+        "NúmeroId": "R8901234",
+        "Teléfono": "82345678901",
+        "Cargo": "Analista de Datos",
+        "Email": "lorena.garcia@example.com"
+    },
+    {
+        "Nombre": "Raúl Martínez",
+        "NúmeroId": "S9012345",
+        "Teléfono": "92345678901",
+        "Cargo": "Ingeniero de Proyectos",
+        "Email": "raul.martinez@example.com"
+    },
+    {
+        "Nombre": "Natalia Pérez",
+        "NúmeroId": "T0123456",
+        "Teléfono": "92345678901",
+        "Cargo": "Asistente Administrativo",
+        "Email": "natalia.perez@example.com"
+    },
+    {
+        "Nombre": "Antonio Rodríguez",
+        "NúmeroId": "U1234567",
+        "Teléfono": "11234567890",
+        "Cargo": "Desarrollador Web",
+        "Email": "antonio.rodriguez@example.com"
+    },
+    {
+        "Nombre": "Silvia Sánchez",
+        "NúmeroId": "V2345678",
+        "Teléfono": "22345678901",
+        "Cargo": "Analista Financiero",
+        "Email": "silvia.sanchez@example.com"
+    },
+    {
+        "Nombre": "Roberto López",
+        "NúmeroId": "W3456789",
+        "Teléfono": "32345678901",
+        "Cargo": "Coordinador de Ventas",
+        "Email": "roberto.lopez@example.com"
+    },
+    {
+        "Nombre": "Carolina González",
+        "NúmeroId": "X4567890",
+        "Teléfono": "42345678901",
+        "Cargo": "Especialista en Marketing Digital",
+        "Email": "carolina.gonzalez@example.com"
+    },
+    {
+        "Nombre": "Hugo Pérez",
+        "NúmeroId": "Y5678901",
+        "Teléfono": "52345678901",
+        "Cargo": "Ingeniero de Software",
+        "Email": "hugo.perez@example.com"
+    },
+    {
+        "Nombre": "Teresa Rodríguez",
+        "NúmeroId": "Z6789012",
+        "Teléfono": "62345678901",
+        "Cargo": "Contadora",
+        "Email": "teresa.rodriguez@example.com"
+    },
+    {
+        "Nombre": "Andrea Sánchez",
+        "NúmeroId": "A1234567",
+        "Teléfono": "72345678901",
+        "Cargo": "Diseñadora Gráfica",
+        "Email": "andrea.sanchez@example.com"
+    },
+    {
+        "Nombre": "Fernando López",
+        "NúmeroId": "B2345678",
+        "Teléfono": "82345678901",
+        "Cargo": "Especialista en Recursos Humanos",
+        "Email": "fernando.lopez@example.com"
+    },
+    {
+        "Nombre": "Gloria García",
+        "NúmeroId": "C3456789",
+        "Teléfono": "92345678901",
+        "Cargo": "Analista de Datos",
+        "Email": "gloria.garcia@example.com"
+    }
+]

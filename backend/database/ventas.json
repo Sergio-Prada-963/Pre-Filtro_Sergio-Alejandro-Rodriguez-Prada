@@ -1,0 +1,230 @@
+[
+    {
+        "Fecha": ISODate("2023-09-15T00:00:00.000Z"),
+        "Cliente": ObjectId("651379afbf54cfc7566db574"),
+        "Producto": ObjectId("65131c3bb9b159f53c4a5e6c"),
+        "Empleado": ObjectId("6513204db9b159f53c4a5e9e")
+    },
+    {
+        "Fecha": ISODate("2023-09-14T00:00:00.000Z"),
+        "Cliente": ObjectId("651379afbf54cfc7566db575"),
+        "Producto": ObjectId("65131c3bb9b159f53c4a5e6d"),
+        "Empleado": ObjectId("6513204db9b159f53c4a5e9f")
+    },
+    {
+        "Fecha": ISODate("2023-09-13T00:00:00.000Z"),
+        "Cliente": ObjectId("651379afbf54cfc7566db576"),
+        "Producto": ObjectId("65131c3bb9b159f53c4a5e6e"),
+        "Empleado": ObjectId("6513204db9b159f53c4a5ea0")
+    },
+    {
+        "Fecha": ISODate("2023-09-12T00:00:00.000Z"),
+        "Cliente": ObjectId("651379afbf54cfc7566db577"),
+        "Producto": ObjectId("65131c3bb9b159f53c4a5e6f"),
+        "Empleado": ObjectId("6513204db9b159f53c4a5ea1")
+    },
+    {
+        "Fecha": ISODate("2023-09-11T00:00:00.000Z"),
+        "Cliente": ObjectId("651379afbf54cfc7566db578"),
+        "Producto": ObjectId("65131c3bb9b159f53c4a5e70"),
+        "Empleado": ObjectId("6513204db9b159f53c4a5ea2")
+    },
+    {
+        "Fecha": ISODate("2023-09-10T00:00:00.000Z"),
+        "Cliente": ObjectId("651379afbf54cfc7566db579"),
+        "Producto": ObjectId("65131c3bb9b159f53c4a5e71"),
+        "Empleado": ObjectId("6513204db9b159f53c4a5ea3")
+    },
+    {
+        "Fecha": ISODate("2023-09-09T00:00:00.000Z"),
+        "Cliente": ObjectId("651379afbf54cfc7566db57a"),
+        "Producto": ObjectId("65131c3bb9b159f53c4a5e72"),
+        "Empleado": ObjectId("6513204db9b159f53c4a5ea4")
+    },
+    {
+        "Fecha": ISODate("2023-09-08T00:00:00.000Z"),
+        "Cliente": ObjectId("651379afbf54cfc7566db57b"),
+        "Producto": ObjectId("65131c3bb9b159f53c4a5e73"),
+        "Empleado": ObjectId("6513204db9b159f53c4a5ea5")
+    },
+    {
+        "Fecha": ISODate("2023-09-07T00:00:00.000Z"),
+        "Cliente": ObjectId("651379afbf54cfc7566db57c"),
+        "Producto": ObjectId("65131c3bb9b159f53c4a5e74"),
+        "Empleado": ObjectId("6513204db9b159f53c4a5ea6")
+    },
+    {
+        "Fecha": ISODate("2023-09-06T00:00:00.000Z"),
+        "Cliente": ObjectId("651379afbf54cfc7566db57d"),
+        "Producto": ObjectId("65131c3bb9b159f53c4a5e75"),
+        "Empleado": ObjectId("6513204db9b159f53c4a5ea7")
+    },
+    {
+        "Fecha": ISODate("2023-09-05T00:00:00.000Z"),
+        "Cliente": ObjectId("651379afbf54cfc7566db57e"),
+        "Producto": ObjectId("65131c3bb9b159f53c4a5e76"),
+        "Empleado": ObjectId("6513204db9b159f53c4a5ea8")
+    },
+    {
+        "Fecha": ISODate("2023-09-04T00:00:00.000Z"),
+        "Cliente": ObjectId("651379afbf54cfc7566db57f"),
+        "Producto": ObjectId("65131c3bb9b159f53c4a5e77"),
+        "Empleado": ObjectId("6513204db9b159f53c4a5ea9")
+    },
+    {
+        "Fecha": ISODate("2023-09-03T00:00:00.000Z"),
+        "Cliente": ObjectId("651379afbf54cfc7566db580"),
+        "Producto": ObjectId("65131c3bb9b159f53c4a5e78"),
+        "Empleado": ObjectId("6513204db9b159f53c4a5eaa")
+    },
+    {
+        "Fecha": ISODate("2023-09-02T00:00:00.000Z"),
+        "Cliente": ObjectId("651379afbf54cfc7566db581"),
+        "Producto": ObjectId("65131c3bb9b159f53c4a5e79"),
+        "Empleado": ObjectId("6513204db9b159f53c4a5eab")
+    },
+    {
+        "Fecha": ISODate("2023-09-01T00:00:00.000Z"),
+        "Cliente": ObjectId("651379afbf54cfc7566db582"),
+        "Producto": ObjectId("65131c3bb9b159f53c4a5e7a"),
+        "Empleado": ObjectId("6513204db9b159f53c4a5eac")
+    },
+    {
+        "Fecha": ISODate("2023-08-31T00:00:00.000Z"),
+        "Cliente": ObjectId("651379afbf54cfc7566db583"),
+        "Producto": ObjectId("65131c3bb9b159f53c4a5e7b"),
+        "Empleado": ObjectId("6513204db9b159f53c4a5ead")
+    },
+    {
+        "Fecha": ISODate("2023-08-30T00:00:00.000Z"),
+        "Cliente": ObjectId("651379afbf54cfc7566db584"),
+        "Producto": ObjectId("65131c3bb9b159f53c4a5e7c"),
+        "Empleado": ObjectId("6513204db9b159f53c4a5eae")
+    },
+    {
+        "Fecha": ISODate("2023-08-29T00:00:00.000Z"),
+        "Cliente": ObjectId("651379afbf54cfc7566db585"),
+        "Producto": ObjectId("65131c3bb9b159f53c4a5e7d"),
+        "Empleado": ObjectId("6513204db9b159f53c4a5eaf")
+    },
+    {
+        "Fecha": ISODate("2023-08-28T00:00:00.000Z"),
+        "Cliente": ObjectId("651379afbf54cfc7566db586"),
+        "Producto": ObjectId("65131c3bb9b159f53c4a5e7e"),
+        "Empleado": ObjectId("65137adbbf54cfc7566db58a")
+    },
+    {
+        "Fecha": ISODate("2023-08-27T00:00:00.000Z"),
+        "Cliente": ObjectId("651379afbf54cfc7566db587"),
+        "Producto": ObjectId("65131c3bb9b159f53c4a5e7f"),
+        "Empleado": ObjectId("65137adbbf54cfc7566db58b")
+    },
+    {
+        "Fecha": ISODate("2023-08-26T00:00:00.000Z"),
+        "Cliente": ObjectId("651379afbf54cfc7566db588"),
+        "Producto": ObjectId("65131c3bb9b159f53c4a5e80"),
+        "Empleado": ObjectId("65137adbbf54cfc7566db58c")
+    },
+    {
+        "Fecha": ISODate("2023-08-25T00:00:00.000Z"),
+        "Cliente": ObjectId("6513951abf54cfc7566db5bb"),
+        "Producto": ObjectId("65131c3bb9b159f53c4a5e81"),
+        "Empleado": ObjectId("65137adbbf54cfc7566db58d")
+    },
+    {
+        "Fecha": ISODate("2023-08-24T00:00:00.000Z"),
+        "Cliente": ObjectId("651379afbf54cfc7566db589"),
+        "Producto": ObjectId("65131c3bb9b159f53c4a5e82"),
+        "Empleado": ObjectId("65137adbbf54cfc7566db58e")
+    },
+    {
+        "Fecha": ISODate("2023-08-23T00:00:00.000Z"),
+        "Cliente": ObjectId("6513951abf54cfc7566db5bd"),
+        "Producto": ObjectId("65131c3bb9b159f53c4a5e83"),
+        "Empleado": ObjectId("65137adbbf54cfc7566db58f")
+    },
+    {
+        "Fecha": ISODate("2023-08-22T00:00:00.000Z"),
+        "Cliente": ObjectId("6513951abf54cfc7566db5bc"),
+        "Producto": ObjectId("65131c3bb9b159f53c4a5e84"),
+        "Empleado": ObjectId("65137adbbf54cfc7566db590")
+    },
+    {
+        "Fecha": ISODate("2023-08-21T00:00:00.000Z"),
+        "Cliente": ObjectId("6513951abf54cfc7566db5bf"),
+        "Producto": ObjectId("65131c3bb9b159f53c4a5e85"),
+        "Empleado": ObjectId("65137adbbf54cfc7566db591")
+    },
+    {
+        "Fecha": ISODate("2023-08-20T00:00:00.000Z"),
+        "Cliente": ObjectId("6513951abf54cfc7566db5be"),
+        "Producto": ObjectId("65131c3bb9b159f53c4a5e86"),
+        "Empleado": ObjectId("65137adbbf54cfc7566db592")
+    },
+    {
+        "Fecha": ISODate("2023-08-19T00:00:00.000Z"),
+        "Cliente": ObjectId("6513951abf54cfc7566db5c1"),
+        "Producto": ObjectId("65131c3bb9b159f53c4a5e87"),
+        "Empleado": ObjectId("65137adbbf54cfc7566db593")
+    },
+    {
+        "Fecha": ISODate("2023-08-18T00:00:00.000Z"),
+        "Cliente": ObjectId("6513951abf54cfc7566db5c0"),
+        "Producto": ObjectId("65131c3bb9b159f53c4a5e88"),
+        "Empleado": ObjectId("65137adbbf54cfc7566db594")
+    },
+    {
+        "Fecha": ISODate("2023-08-17T00:00:00.000Z"),
+        "Cliente": ObjectId("6513951abf54cfc7566db5c3"),
+        "Producto": ObjectId("65131c3bb9b159f53c4a5e89"),
+        "Empleado": ObjectId("65137adbbf54cfc7566db595")
+    },
+    {
+        "Fecha": ISODate("2023-08-16T00:00:00.000Z"),
+        "Cliente": ObjectId("6513951abf54cfc7566db5c2"),
+        "Producto": ObjectId("65131c3bb9b159f53c4a5e8a"),
+        "Empleado": ObjectId("65137adbbf54cfc7566db596")
+    },
+    {
+        "Fecha": ISODate("2023-08-15T00:00:00.000Z"),
+        "Cliente": ObjectId("6513951abf54cfc7566db5c5"),
+        "Producto": ObjectId("65131c3bb9b159f53c4a5e8b"),
+        "Empleado": ObjectId("65137adbbf54cfc7566db597")
+    },
+    {
+        "Fecha": ISODate("2023-08-14T00:00:00.000Z"),
+        "Cliente": ObjectId("6513951abf54cfc7566db5c4"),
+        "Producto": ObjectId("65131c3bb9b159f53c4a5e8c"),
+        "Empleado": ObjectId("65137adbbf54cfc7566db598")
+    },
+    {
+        "Fecha": ISODate("2023-08-13T00:00:00.000Z"),
+        "Cliente": ObjectId("6513951abf54cfc7566db5c7"),
+        "Producto": ObjectId("65131c3bb9b159f53c4a5e8d"),
+        "Empleado": ObjectId("65137adbbf54cfc7566db599")
+    },
+    {
+        "Fecha": ISODate("2023-08-12T00:00:00.000Z"),
+        "Cliente": ObjectId("6513951abf54cfc7566db5c6"),
+        "Producto": ObjectId("65131c3bb9b159f53c4a5e8e"),
+        "Empleado": ObjectId("65137adbbf54cfc7566db59a")
+    },
+    {
+        "Fecha": ISODate("2023-08-11T00:00:00.000Z"),
+        "Cliente": ObjectId("6513951abf54cfc7566db5c9"),
+        "Producto": ObjectId("65131c3bb9b159f53c4a5e8f"),
+        "Empleado": ObjectId("65137adbbf54cfc7566db59b")
+    },
+    {
+        "Fecha": ISODate("2023-08-10T00:00:00.000Z"),
+        "Cliente": ObjectId("6513951abf54cfc7566db5c8"),
+        "Producto": ObjectId("65131c3bb9b159f53c4a5e90"),
+        "Empleado": ObjectId("65137adbbf54cfc7566db59c")
+    },
+    {
+        "Fecha": ISODate("2023-08-09T00:00:00.000Z"),
+        "Cliente": ObjectId("6513951abf54cfc7566db5cb"),
+        "Producto": ObjectId("65131c3bb9b159f53c4a5e91"),
+        "Empleado": ObjectId("65137adbbf54cfc7566db59d")
+    }
+]

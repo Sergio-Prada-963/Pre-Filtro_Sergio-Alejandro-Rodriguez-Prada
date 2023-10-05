@@ -1,0 +1,662 @@
+[
+    {
+        "productos": [
+            {
+                "producto": "ObjectId(65131c3bb9b159f53c4a5e6c)",
+                "cantidad": 3
+            },
+            {
+                "producto": "ObjectId(65131c3bb9b159f53c4a5e6d)",
+                "cantidad": 2
+            },
+            {
+                "producto": "ObjectId(65131c3bb9b159f53c4a5e6e)",
+                "cantidad": 4
+            },
+            {
+                "producto": "ObjectId(65131c3bb9b159f53c4a5e6f)",
+                "cantidad": 1
+            },
+            {
+                "producto": "ObjectId(65131c3bb9b159f53c4a5e6f)",
+                "cantidad": 1
+            },
+            {
+                "producto": "ObjectId(65131c3bb9b159f53c4a5e70)",
+                "cantidad": 3
+            },
+            {
+                "producto": "ObjectId(65131c3bb9b159f53c4a5e72)",
+                "cantidad": 2
+            },
+            {
+                "producto": "ObjectId(65131c3bb9b159f53c4a5e73)",
+                "cantidad": 4
+            },
+            {
+                "producto": "ObjectId(65131c3bb9b159f53c4a5e74)",
+                "cantidad": 1
+            },
+            {
+                "producto": "ObjectId(65131c3bb9b159f53c4a5e75)",
+                "cantidad": 5
+            }
+        ]
+    },
+    {
+        "productos": [
+            {
+                "producto": "ObjectId(65131c3bb9b159f53c4a5e76)",
+                "cantidad": 3
+            },
+            {
+                "producto": "ObjectId(65131c3bb9b159f53c4a5e77)",
+                "cantidad": 1
+            },
+            {
+                "producto": "ObjectId(65131c3bb9b159f53c4a5e78)",
+                "cantidad": 4
+            },
+            {
+                "producto": "ObjectId(65131c3bb9b159f53c4a5e79)",
+                "cantidad": 2
+            },
+            {
+                "producto": "ObjectId(65131c3bb9b159f53c4a5e7a)",
+                "cantidad": 5
+            },
+            {
+                "producto": "ObjectId(65131c3bb9b159f53c4a5e7b)",
+                "cantidad": 1
+            },
+            {
+                "producto": "ObjectId(65131c3bb9b159f53c4a5e7c)",
+                "cantidad": 3
+            },
+            {
+                "producto": "ObjectId(65131c3bb9b159f53c4a5e7d)",
+                "cantidad": 2
+            },
+            {
+                "producto": "ObjectId(65131c3bb9b159f53c4a5e7e)",
+                "cantidad": 4
+            },
+            {
+                "producto": "ObjectId(65131c3bb9b159f53c4a5e7f)",
+                "cantidad": 5
+            }
+        ]
+    },
+    {
+        "productos": [
+            {
+                "producto": "ObjectId(65131c3bb9b159f53c4a5e80)",
+                "cantidad": 1
+            },
+            {
+                "producto": "ObjectId(65131c3bb9b159f53c4a5e81)",
+                "cantidad": 2
+            },
+            {
+                "producto": "ObjectId(65131c3bb9b159f53c4a5e82)",
+                "cantidad": 3
+            },
+            {
+                "producto": "ObjectId(65131c3bb9b159f53c4a5e83)",
+                "cantidad": 4
+            },
+            {
+                "producto": "ObjectId(65131c3bb9b159f53c4a5e84)",
+                "cantidad": 5
+            },
+            {
+                "producto": "ObjectId(65131c3bb9b159f53c4a5e85)",
+                "cantidad": 1
+            },
+            {
+                "producto": "ObjectId(65131c3bb9b159f53c4a5e86)",
+                "cantidad": 2
+            },
+            {
+                "producto": "ObjectId(65131c3bb9b159f53c4a5e87)",
+                "cantidad": 3
+            },
+            {
+                "producto": "ObjectId(65131c3bb9b159f53c4a5e88)",
+                "cantidad": 4
+            },
+            {
+                "producto": "ObjectId(65131c3bb9b159f53c4a5e89)",
+                "cantidad": 5
+            }
+        ]
+    },
+    {
+        "productos": [
+            {
+                "producto": "ObjectId(65131c3bb9b159f53c4a5e8a)",
+                "cantidad": 1
+            },
+            {
+                "producto": "ObjectId(65131c3bb9b159f53c4a5e8b)",
+                "cantidad": 2
+            },
+            {
+                "producto": "ObjectId(65131c3bb9b159f53c4a5e8c)",
+                "cantidad": 3
+            },
+            {
+                "producto": "ObjectId(65131c3bb9b159f53c4a5e8d)",
+                "cantidad": 4
+            },
+            {
+                "producto": "ObjectId(65131c3bb9b159f53c4a5e8e)",
+                "cantidad": 5
+            },
+            {
+                "producto": "ObjectId(65131c3bb9b159f53c4a5e8f)",
+                "cantidad": 1
+            },
+            {
+                "producto": "ObjectId(65131c3bb9b159f53c4a5e90)",
+                "cantidad": 2
+            },
+            {
+                "producto": "ObjectId(65131c3bb9b159f53c4a5e91)",
+                "cantidad": 3
+            },
+            {
+                "producto": "ObjectId(65131c3bb9b159f53c4a5e92)",
+                "cantidad": 4
+            },
+            {
+                "producto": "ObjectId(65131c3bb9b159f53c4a5e93)",
+                "cantidad": 5
+            }
+        ]
+    },
+    {
+        "productos": [
+            {
+                "producto": "ObjectId(65131c3bb9b159f53c4a5e94)",
+                "cantidad": 1
+            },
+            {
+                "producto": "ObjectId(65131c3bb9b159f53c4a5e95)",
+                "cantidad": 2
+            },
+            {
+                "producto": "ObjectId(65131c3bb9b159f53c4a5e96)",
+                "cantidad": 3
+            },
+            {
+                "producto": "ObjectId(65131c3bb9b159f53c4a5e97)",
+                "cantidad": 4
+            },
+            {
+                "producto": "ObjectId(65131c3bb9b159f53c4a5e98)",
+                "cantidad": 5
+            },
+            {
+                "producto": "ObjectId(65131c3bb9b159f53c4a5e99)",
+                "cantidad": 1
+            },
+            {
+                "producto": "ObjectId(65131c3bb9b159f53c4a5e9a)",
+                "cantidad": 2
+            },
+            {
+                "producto": "ObjectId(65131c3bb9b159f53c4a5e9b)",
+                "cantidad": 3
+            },
+            {
+                "producto": "ObjectId(65131c3bb9b159f53c4a5e9c)",
+                "cantidad": 4
+            },
+            {
+                "producto": "ObjectId(65137adbbf54cfc7566db58a)",
+                "cantidad": 5
+            }
+        ]
+    },
+    {
+        "productos": [
+            {
+                "producto": "ObjectId(65137adbbf54cfc7566db58b)",
+                "cantidad": 1
+            },
+            {
+                "producto": "ObjectId(65137adbbf54cfc7566db58c)",
+                "cantidad": 2
+            },
+            {
+                "producto": "ObjectId(65137adbbf54cfc7566db58d)",
+                "cantidad": 3
+            },
+            {
+                "producto": "ObjectId(65137adbbf54cfc7566db58e)",
+                "cantidad": 4
+            },
+            {
+                "producto": "ObjectId(65137adbbf54cfc7566db58f)",
+                "cantidad": 5
+            },
+            {
+                "producto": "ObjectId(65137adbbf54cfc7566db590)",
+                "cantidad": 1
+            },
+            {
+                "producto": "ObjectId(65137adbbf54cfc7566db591)",
+                "cantidad": 2
+            },
+            {
+                "producto": "ObjectId(65137adbbf54cfc7566db592)",
+                "cantidad": 3
+            },
+            {
+                "producto": "ObjectId(65137adbbf54cfc7566db593)",
+                "cantidad": 4
+            },
+            {
+                "producto": "ObjectId(65137adbbf54cfc7566db594)",
+                "cantidad": 5
+            }
+        ]
+    },
+    {
+        "productos": [
+            {
+                "producto": "ObjectId(65137adbbf54cfc7566db595)",
+                "cantidad": 1
+            },
+            {
+                "producto": "ObjectId(65137adbbf54cfc7566db596)",
+                "cantidad": 2
+            },
+            {
+                "producto": "ObjectId(65137adbbf54cfc7566db597)",
+                "cantidad": 3
+            },
+            {
+                "producto": "ObjectId(65137adbbf54cfc7566db598)",
+                "cantidad": 4
+            },
+            {
+                "producto": "ObjectId(65137adbbf54cfc7566db599)",
+                "cantidad": 5
+            },
+            {
+                "producto": "ObjectId(65137adbbf54cfc7566db59a)",
+                "cantidad": 1
+            },
+            {
+                "producto": "ObjectId(65137adbbf54cfc7566db59b)",
+                "cantidad": 2
+            },
+            {
+                "producto": "ObjectId(65137adbbf54cfc7566db59c)",
+                "cantidad": 3
+            },
+            {
+                "producto": "ObjectId(65137adbbf54cfc7566db59d)",
+                "cantidad": 4
+            },
+            {
+                "producto": "ObjectId(65137adbbf54cfc7566db59e)",
+                "cantidad": 5
+            }
+        ]
+    },
+    {
+        "productos": [
+            {
+                "producto": "ObjectId(65137adbbf54cfc7566db59f)",
+                "cantidad": 1
+            },
+            {
+                "producto": "ObjectId(65137adbbf54cfc7566db5a0)",
+                "cantidad": 2
+            },
+            {
+                "producto": "ObjectId(65137adbbf54cfc7566db5a1)",
+                "cantidad": 3
+            },
+            {
+                "producto": "ObjectId(65137adbbf54cfc7566db5a2)",
+                "cantidad": 4
+            },
+            {
+                "producto": "ObjectId(65137adbbf54cfc7566db5a3)",
+                "cantidad": 5
+            },
+            {
+                "producto": "ObjectId(65137adbbf54cfc7566db5a4)",
+                "cantidad": 1
+            },
+            {
+                "producto": "ObjectId(65137adbbf54cfc7566db5a5)",
+                "cantidad": 2
+            },
+            {
+                "producto": "ObjectId(65137adbbf54cfc7566db5a6)",
+                "cantidad": 3
+            },
+            {
+                "producto": "ObjectId(65137adbbf54cfc7566db5a7)",
+                "cantidad": 4
+            },
+            {
+                "producto": "ObjectId(65137adbbf54cfc7566db5a8)",
+                "cantidad": 5
+            }
+        ]
+    },
+    {
+        "productos": [
+            {
+                "producto": "ObjectId(65137adbbf54cfc7566db5a9)",
+                "cantidad": 1
+            },
+            {
+                "producto": "ObjectId(65137adbbf54cfc7566db5aa)",
+                "cantidad": 2
+            },
+            {
+                "producto": "ObjectId(65137adbbf54cfc7566db5ab)",
+                "cantidad": 3
+            },
+            {
+                "producto": "ObjectId(65137adbbf54cfc7566db5ac)",
+                "cantidad": 4
+            },
+            {
+                "producto": "ObjectId(65137adbbf54cfc7566db5ad)",
+                "cantidad": 5
+            },
+            {
+                "producto": "ObjectId(65137adbbf54cfc7566db5ae)",
+                "cantidad": 1
+            },
+            {
+                "producto": "ObjectId(65137adbbf54cfc7566db5af)",
+                "cantidad": 2
+            },
+            {
+                "producto": "ObjectId(65137adbbf54cfc7566db5b0)",
+                "cantidad": 3
+            },
+            {
+                "producto": "ObjectId(65137adbbf54cfc7566db5b1)",
+                "cantidad": 4
+            },
+            {
+                "producto": "ObjectId(65137adbbf54cfc7566db5b2)",
+                "cantidad": 5
+            }
+        ]
+    },
+    {
+        "productos": [
+            {
+                "producto": "ObjectId(65137adbbf54cfc7566db5b3)",
+                "cantidad": 1
+            },
+            {
+                "producto": "ObjectId(65137adbbf54cfc7566db5b4)",
+                "cantidad": 2
+            },
+            {
+                "producto": "ObjectId(65137adbbf54cfc7566db5b5)",
+                "cantidad": 3
+            },
+            {
+                "producto": "ObjectId(65137adbbf54cfc7566db5b6)",
+                "cantidad": 4
+            },
+            {
+                "producto": "ObjectId(65137adbbf54cfc7566db5b7)",
+                "cantidad": 5
+            },
+            {
+                "producto": "ObjectId(65137adbbf54cfc7566db5b8)",
+                "cantidad": 1
+            },
+            {
+                "producto": "ObjectId(65137adbbf54cfc7566db5b9)",
+                "cantidad": 2
+            },
+            {
+                "producto": "ObjectId(65137adbbf54cfc7566db5ba)",
+                "cantidad": 3
+            },
+            {
+                "producto": "ObjectId(65131c3bb9b159f53c4a5e6c)",
+                "cantidad": 4
+            },
+            {
+                "producto": "ObjectId(65131c3bb9b159f53c4a5e6d)",
+                "cantidad": 5
+            }
+        ]
+    },
+    {
+        "productos": [
+            {
+                "producto": "ObjectId(65131c3bb9b159f53c4a5e6c)",
+                "cantidad": 3
+            },
+            {
+                "producto": "ObjectId(65131c3bb9b159f53c4a5e6d)",
+                "cantidad": 2
+            },
+            {
+                "producto": "ObjectId(65131c3bb9b159f53c4a5e6e)",
+                "cantidad": 4
+            },
+            {
+                "producto": "ObjectId(65131c3bb9b159f53c4a5e6f)",
+                "cantidad": 1
+            },
+            {
+                "producto": "ObjectId(65131c3bb9b159f53c4a5e70)",
+                "cantidad": 5
+            },
+            {
+                "producto": "ObjectId(65131c3bb9b159f53c4a5e71)",
+                "cantidad": 3
+            },
+            {
+                "producto": "ObjectId(65131c3bb9b159f53c4a5e72)",
+                "cantidad": 2
+            },
+            {
+                "producto": "ObjectId(65131c3bb9b159f53c4a5e73)",
+                "cantidad": 4
+            },
+            {
+                "producto": "ObjectId(65131c3bb9b159f53c4a5e74)",
+                "cantidad": 1
+            },
+            {
+                "producto": "ObjectId(65131c3bb9b159f53c4a5e75)",
+                "cantidad": 5
+            }
+        ]
+    },
+    {
+        "productos": [
+            {
+                "producto": "ObjectId(65131c3bb9b159f53c4a5e76)",
+                "cantidad": 4
+            },
+            {
+                "producto": "ObjectId(65131c3bb9b159f53c4a5e77)",
+                "cantidad": 3
+            },
+            {
+                "producto": "ObjectId(65131c3bb9b159f53c4a5e78)",
+                "cantidad": 2
+            },
+            {
+                "producto": "ObjectId(65131c3bb9b159f53c4a5e79)",
+                "cantidad": 1
+            },
+            {
+                "producto": "ObjectId(65131c3bb9b159f53c4a5e7a)",
+                "cantidad": 5
+            },
+            {
+                "producto": "ObjectId(65131c3bb9b159f53c4a5e7b)",
+                "cantidad": 4
+            },
+            {
+                "producto": "ObjectId(65131c3bb9b159f53c4a5e7c)",
+                "cantidad": 3
+            },
+            {
+                "producto": "ObjectId(65131c3bb9b159f53c4a5e7d)",
+                "cantidad": 2
+            },
+            {
+                "producto": "ObjectId(65131c3bb9b159f53c4a5e7e)",
+                "cantidad": 1
+            },
+            {
+                "producto": "ObjectId(65131c3bb9b159f53c4a5e7f)",
+                "cantidad": 5
+            }
+        ]
+    },
+    {
+        "productos": [
+            {
+                "producto": "ObjectId(65131c3bb9b159f53c4a5e80)",
+                "cantidad": 2
+            },
+            {
+                "producto": "ObjectId(65131c3bb9b159f53c4a5e81)",
+                "cantidad": 3
+            },
+            {
+                "producto": "ObjectId(65131c3bb9b159f53c4a5e82)",
+                "cantidad": 4
+            },
+            {
+                "producto": "ObjectId(65131c3bb9b159f53c4a5e83)",
+                "cantidad": 5
+            },
+            {
+                "producto": "ObjectId(65131c3bb9b159f53c4a5e84)",
+                "cantidad": 1
+            },
+            {
+                "producto": "ObjectId(65131c3bb9b159f53c4a5e85)",
+                "cantidad": 2
+            },
+            {
+                "producto": "ObjectId(65131c3bb9b159f53c4a5e86)",
+                "cantidad": 3
+            },
+            {
+                "producto": "ObjectId(65131c3bb9b159f53c4a5e87)",
+                "cantidad": 4
+            },
+            {
+                "producto": "ObjectId(65131c3bb9b159f53c4a5e88)",
+                "cantidad": 5
+            },
+            {
+                "producto": "ObjectId(65131c3bb9b159f53c4a5e89)",
+                "cantidad": 1
+            }
+        ]
+    },
+    {
+        "productos": [
+            {
+                "producto": "ObjectId(65131c3bb9b159f53c4a5e8a)",
+                "cantidad": 2
+            },
+            {
+                "producto": "ObjectId(65131c3bb9b159f53c4a5e8b)",
+                "cantidad": 3
+            },
+            {
+                "producto": "ObjectId(65131c3bb9b159f53c4a5e8c)",
+                "cantidad": 4
+            },
+            {
+                "producto": "ObjectId(65131c3bb9b159f53c4a5e8d)",
+                "cantidad": 5
+            },
+            {
+                "producto": "ObjectId(65131c3bb9b159f53c4a5e8e)",
+                "cantidad": 1
+            },
+            {
+                "producto": "ObjectId(65131c3bb9b159f53c4a5e8f)",
+                "cantidad": 2
+            },
+            {
+                "producto": "ObjectId(65131c3bb9b159f53c4a5e90)",
+                "cantidad": 3
+            },
+            {
+                "producto": "ObjectId(65131c3bb9b159f53c4a5e91)",
+                "cantidad": 4
+            },
+            {
+                "producto": "ObjectId(65131c3bb9b159f53c4a5e92)",
+                "cantidad": 5
+            },
+            {
+                "producto": "ObjectId(65131c3bb9b159f53c4a5e93)",
+                "cantidad": 1
+            }
+        ]
+    },
+    {
+        "productos": [
+            {
+                "producto": "ObjectId(65131c3bb9b159f53c4a5e94)",
+                "cantidad": 2
+            },
+            {
+                "producto": "ObjectId(65131c3bb9b159f53c4a5e95)",
+                "cantidad": 3
+            },
+            {
+                "producto": "ObjectId(65131c3bb9b159f53c4a5e96)",
+                "cantidad": 4
+            },
+            {
+                "producto": "ObjectId(65131c3bb9b159f53c4a5e97)",
+                "cantidad": 5
+            },
+            {
+                "producto": "ObjectId(65131c3bb9b159f53c4a5e98)",
+                "cantidad": 1
+            },
+            {
+                "producto": "ObjectId(65131c3bb9b159f53c4a5e99)",
+                "cantidad": 2
+            },
+            {
+                "producto": "ObjectId(65131c3bb9b159f53c4a5e9a)",
+                "cantidad": 3
+            },
+            {
+                "producto": "ObjectId(65131c3bb9b159f53c4a5e9b)",
+                "cantidad": 4
+            },
+            {
+                "producto": "ObjectId(65131c3bb9b159f53c4a5e9c)",
+                "cantidad": 5
+            },
+            {
+                "producto": "ObjectId(65137adbbf54cfc7566db58a)",
+                "cantidad": 1
+            }
+        ]
+    }
+]

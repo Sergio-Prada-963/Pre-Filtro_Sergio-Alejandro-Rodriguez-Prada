@@ -1,0 +1,17 @@
+[
+    {"Nombre": "Autos Elegantes", "Ubicacion": "Calle Principal, Ciudad A", "Cantidad_ventas": 14},
+    {"Nombre": "Motorcars Premium", "Ubicacion": "Avenida Principal, Ciudad B", "Cantidad_ventas": 12},
+    {"Nombre": "Vehículos de Lujo Central", "Ubicacion": "Avenida de Oro, Ciudad C", "Cantidad_ventas": 10},
+    {"Nombre": "Autos de Élite", "Ubicacion": "Boulevard de Lujo, Ciudad D", "Cantidad_ventas": 16},
+    {"Nombre": "Automóviles Exclusivos", "Ubicacion": "Calle Exclusiva, Ciudad E", "Cantidad_ventas": 18},
+    {"Nombre": "LuxCars International", "Ubicacion": "Avenida Principal, Ciudad F", "Cantidad_ventas": 13},
+    {"Nombre": "Prestige Motors", "Ubicacion": "Calle de Prestigio, Ciudad G", "Cantidad_ventas": 9},
+    {"Nombre": "SuperAutos de Élite", "Ubicacion": "Avenida de la Riqueza, Ciudad H", "Cantidad_ventas": 20},
+    {"Nombre": "Autos Elegantes del Sur", "Ubicacion": "Boulevard del Lujo, Ciudad I", "Cantidad_ventas": 11},
+    {"Nombre": "Autos de Alta Gama", "Ubicacion": "Avenida del Glamour, Ciudad J", "Cantidad_ventas": 15},
+    {"Nombre": "Vehículos Premium del Norte", "Ubicacion": "Calle del Prestigio, Ciudad K", "Cantidad_ventas": 8},
+    {"Nombre": "Lujo Automotriz Central", "Ubicacion": "Avenida de Oro, Ciudad L", "Cantidad_ventas": 17},
+    {"Nombre": "Autos de Prestigio Internacional", "Ubicacion": "Boulevard de Lujo, Ciudad M", "Cantidad_ventas": 19},
+    {"Nombre": "Motorcars de Élite", "Ubicacion": "Calle Exclusiva, Ciudad N", "Cantidad_ventas": 10},
+    {"Nombre": "Vehículos Premium de Alta Gama", "Ubicacion": "Avenida Principal, Ciudad O", "Cantidad_ventas": 14}
+]

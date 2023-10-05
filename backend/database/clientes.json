@@ -1,0 +1,284 @@
+[
+    {
+        "Nombre": "Juan Pérez",
+        "Email": "juan.perez@example.com",
+        "Telefono": "+1-555-123-4567"
+    },
+    {
+        "Nombre": "María García",
+        "Email": "maria.garcia@example.com",
+        "Telefono": "+1-555-987-6543"
+    },
+    {
+        "Nombre": "Carlos Rodríguez",
+        "Email": "carlos.rodriguez@example.com",
+        "Telefono": "+1-555-567-8901"
+    },
+    {
+        "Nombre": "Laura Martínez",
+        "Email": "laura.martinez@example.com",
+        "Telefono": "+1-555-234-5678"
+    },
+    {
+        "Nombre": "Luisa Sánchez",
+        "Email": "luisa.sanchez@example.com",
+        "Telefono": "+1-555-876-5432"
+    },
+    {
+        "Nombre": "Pedro López",
+        "Email": "pedro.lopez@example.com",
+        "Telefono": "+1-555-345-6789"
+    },
+    {
+        "Nombre": "Ana Ramírez",
+        "Email": "ana.ramirez@example.com",
+        "Telefono": "+1-555-654-3210"
+    },
+    {
+        "Nombre": "Javier Fernández",
+        "Email": "javier.fernandez@example.com",
+        "Telefono": "+1-555-432-1098"
+    },
+    {
+        "Nombre": "Sofía González",
+        "Email": "sofia.gonzalez@example.com",
+        "Telefono": "+1-555-210-9876"
+    },
+    {
+        "Nombre": "Diego Torres",
+        "Email": "diego.torres@example.com",
+        "Telefono": "+1-555-876-5432"
+    },
+    {
+        "Nombre": "Elena Pérez",
+        "Email": "elena.perez@example.com",
+        "Telefono": "+1-555-345-6789"
+    },
+    {
+        "Nombre": "Ricardo García",
+        "Email": "ricardo.garcia@example.com",
+        "Telefono": "+1-555-234-5678"
+    },
+    {
+        "Nombre": "Isabel Rodríguez",
+        "Email": "isabel.rodriguez@example.com",
+        "Telefono": "+1-555-987-6543"
+    },
+    {
+        "Nombre": "Miguel Martínez",
+        "Email": "miguel.martinez@example.com",
+        "Telefono": "+1-555-123-4567"
+    },
+    {
+        "Nombre": "Carmen Sánchez",
+        "Email": "carmen.sanchez@example.com",
+        "Telefono": "+1-555-654-3210"
+    },
+    {
+        "Nombre": "Andrés López",
+        "Email": "andres.lopez@example.com",
+        "Telefono": "+1-555-876-5432"
+    },
+    {
+        "Nombre": "Paula Ramírez",
+        "Email": "paula.ramirez@example.com",
+        "Telefono": "+1-555-345-6789"
+    },
+    {
+        "Nombre": "Fernando Fernández",
+        "Email": "fernando.fernandez@example.com",
+        "Telefono": "+1-555-234-5678"
+    },
+    {
+        "Nombre": "Lucía González",
+        "Email": "lucia.gonzalez@example.com",
+        "Telefono": "+1-555-987-6543"
+    },
+    {
+        "Nombre": "Gustavo Torres",
+        "Email": "gustavo.torres@example.com",
+        "Telefono": "+1-555-876-5432"
+    },
+    {
+        "Nombre": "Adriana Pérez",
+        "Email": "adriana.perez@example.com",
+        "Telefono": "+1-555-345-6789"
+    },
+    {
+        "Nombre": "Roberto García",
+        "Email": "roberto.garcia@example.com",
+        "Telefono": "+1-555-654-3210"
+    },
+    {
+        "Nombre": "Valeria Martínez",
+        "Email": "valeria.martinez@example.com",
+        "Telefono": "+1-555-234-5678"
+    },
+    {
+        "Nombre": "Manuel Sánchez",
+        "Email": "manuel.sanchez@example.com",
+        "Telefono": "+1-555-987-6543"
+    },
+    {
+        "Nombre": "Lorena López",
+        "Email": "lorena.lopez@example.com",
+        "Telefono": "+1-555-876-5432"
+    },
+    {
+        "Nombre": "Eduardo Ramírez",
+        "Email": "eduardo.ramirez@example.com",
+        "Telefono": "+1-555-345-6789"
+    },
+    {
+        "Nombre": "Alicia Fernández",
+        "Email": "alicia.fernandez@example.com",
+        "Telefono": "+1-555-234-5678"
+    },
+    {
+        "Nombre": "Hugo González",
+        "Email": "hugo.gonzalez@example.com",
+        "Telefono": "+1-555-987-6543"
+    }
+]
+[
+    {
+        "Nombre": "Juan Pérez",
+        "Email": "juanperez@example.com",
+        "Telefono": "555-123-4567"
+    },
+    {
+        "Nombre": "María González",
+        "Email": "mariagonzalez@example.com",
+        "Telefono": "555-234-5678"
+    },
+    {
+        "Nombre": "Carlos Rodríguez",
+        "Email": "carlosrodriguez@example.com",
+        "Telefono": "555-345-6789"
+    },
+    {
+        "Nombre": "Ana Martínez",
+        "Email": "anamartinez@example.com",
+        "Telefono": "555-456-7890"
+    },
+    {
+        "Nombre": "Laura López",
+        "Email": "lauralopez@example.com",
+        "Telefono": "555-567-8901"
+    },
+    {
+        "Nombre": "Javier García",
+        "Email": "javiergarcia@example.com",
+        "Telefono": "555-678-9012"
+    },
+    {
+        "Nombre": "Luisa Ramírez",
+        "Email": "luisaramirez@example.com",
+        "Telefono": "555-789-0123"
+    },
+    {
+        "Nombre": "Pedro Herrera",
+        "Email": "pedroherrera@example.com",
+        "Telefono": "555-890-1234"
+    },
+    {
+        "Nombre": "Carmen Torres",
+        "Email": "carmentorres@example.com",
+        "Telefono": "555-901-2345"
+    },
+    {
+        "Nombre": "Roberto Flores",
+        "Email": "robertoflores@example.com",
+        "Telefono": "555-012-3456"
+    },
+    {
+        "Nombre": "Sofía Díaz",
+        "Email": "sofiadiaz@example.com",
+        "Telefono": "555-123-4567"
+    },
+    {
+        "Nombre": "Diego Vargas",
+        "Email": "diegovargas@example.com",
+        "Telefono": "555-234-5678"
+    },
+    {
+        "Nombre": "Marta Jiménez",
+        "Email": "martajimenez@example.com",
+        "Telefono": "555-345-6789"
+    },
+    {
+        "Nombre": "Andrés Silva",
+        "Email": "andressilva@example.com",
+        "Telefono": "555-456-7890"
+    },
+    {
+        "Nombre": "Elena Ríos",
+        "Email": "elenarios@example.com",
+        "Telefono": "555-567-8901"
+    },
+    {
+        "Nombre": "José Soto",
+        "Email": "josesoto@example.com",
+        "Telefono": "555-678-9012"
+    },
+    {
+        "Nombre": "Isabel Mendoza",
+        "Email": "isabelmendoza@example.com",
+        "Telefono": "555-789-0123"
+    },
+    {
+        "Nombre": "Antonio Cruz",
+        "Email": "antoniocruz@example.com",
+        "Telefono": "555-890-1234"
+    },
+    {
+        "Nombre": "Rosa Ortega",
+        "Email": "rosaortega@example.com",
+        "Telefono": "555-901-2345"
+    },
+    {
+        "Nombre": "Fernando Navarro",
+        "Email": "fernandonavarro@example.com",
+        "Telefono": "555-012-3456"
+    },
+    {
+        "Nombre": "Adriana Morales",
+        "Email": "adrianamorales@example.com",
+        "Telefono": "555-123-4567"
+    },
+    {
+        "Nombre": "Manuel Peña",
+        "Email": "manuelpena@example.com",
+        "Telefono": "555-234-5678"
+    },
+    {
+        "Nombre": "Gabriela Rivas",
+        "Email": "gabrielarivas@example.com",
+        "Telefono": "555-345-6789"
+    },
+    {
+        "Nombre": "Jorge Castillo",
+        "Email": "jorgecastillo@example.com",
+        "Telefono": "555-456-7890"
+    },
+    {
+        "Nombre": "Rocío Herrera",
+        "Email": "rocioherrera@example.com",
+        "Telefono": "555-567-8901"
+    },
+    {
+        "Nombre": "Eduardo Vega",
+        "Email": "eduardovega@example.com",
+        "Telefono": "555-678-9012"
+    },
+    {
+        "Nombre": "Silvia Gómez",
+        "Email": "silviagomez@example.com",
+        "Telefono": "555-789-0123"
+    },
+    {
+        "Nombre": "Felipe Morales",
+        "Email": "felipemorales@example.com",
+        "Telefono": "555-890-1234"
+    }
+]
