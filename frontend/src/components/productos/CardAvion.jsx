@@ -5,7 +5,7 @@ const CardAvion = ({data})=>{
         <div className="content">
             <div className="cont-image">
                 <img src={Imagen} alt="No found img" />
-            </div>
+            </div> 
             <div className="info">
                 <h1>Aereo</h1>
                 <p><span>Marca:</span> {Marca}</p>
