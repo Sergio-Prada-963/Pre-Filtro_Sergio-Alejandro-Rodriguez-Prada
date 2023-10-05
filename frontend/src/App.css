@@ -118,7 +118,7 @@ nav {
   background-size: cover;
   position: relative;
 }
-.parallax h1{
+.parallax h1, .parallax2 h1, .parallax3 h1, .parallax4 h1, .parallax5 h1{
   color: white;
   z-index: 1;
   font-size: 100px;
@@ -242,4 +242,26 @@ summary{
   align-items: center;
   text-decoration: underline;
   font-weight: 100;
+}
+/* Conceccionarios */
+.parallax2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  background-image: url(./Assets/avion.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+/* Proveedores */
+.parallax3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  background-image: url(./Assets/parallax3.webp);
+  background-position: center;
+  background-size: cover;
+  position: relative;
 }

@@ -8,7 +8,7 @@ const router = Router();
 router.get('/all', getEmpleados);
 
 router.post('/',[
-    validJWT,
+    /* validJWT, */
     check('Nombre','Debe tener un Nombre').notEmpty(), 
     check('NumeroId','Debe tener un NumeroId').notEmpty(), 
     check('Teléfono','Debe tener un Teléfono').notEmpty(), 
@@ -20,13 +20,13 @@ router.post('/',[
 validateDocuments], postEmpleado);
 
 router.delete('/:id',[
-    validJWT,
+    /* validJWT, */
     param('id','No es un id mongo valido').isMongoId(),
     param('id','Debe tener un id').notEmpty(),
 validateDocuments], deleteEmpleado);
 
 router.patch('/:id',[
-    validJWT,
+    /* validJWT, */
     param('id','No es un id mongo valido').isMongoId(),
     param('id','Debe tener un id').notEmpty(),
 validateDocuments], updateEmpleado);

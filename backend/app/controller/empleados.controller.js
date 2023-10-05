@@ -18,7 +18,7 @@ export const postEmpleado = async (req,res)=>{
         const {Nombre, NumeroId, Teléfono, Cargo, Email, Conceccionario, Estado} = req.body;
         const salt = bcryptjs.genSaltSync();
         req.body.NumeroId = bcryptjs.hashSync(NumeroId,salt);
-        const data = await collection.insertOne({Nombre, NumeroId: req.body.NumeroId, Teléfono, Cargo, Email, Conceccionario, Estado});
+        const data = await collection.insertOne({Nombre, NumeroId: req.body.NumeroId, Teléfono, Cargo, Email, Conceccionario: new ObjectId(Conceccionario), Estado});
         res.status(200).json(data);
     } catch (error) {
         console.error(error," Error en post Empleado");
@@ -45,7 +45,7 @@ export const updateEmpleado = async (req,res)=>{
         req.body.NumeroId = bcryptjs.hashSync(NumeroId,salt);
         const existEmpleado = await collection.findOne({_id: new ObjectId(id)});
         if (!existEmpleado) return res.json({error: `El Empleado ${Nombre} con el id ${id} no existe`})
-        const data = await collection.updateOne({_id: new ObjectId(id)},{$set: {Nombre, NumeroId: req.body.NumeroId, Teléfono, Cargo, Email, Conceccionario, Estado}})
+        const data = await collection.updateOne({_id: new ObjectId(id)},{$set: {Nombre, NumeroId: req.body.NumeroId, Teléfono, Cargo, Email, Conceccionario: new ObjectId(Conceccionario), Estado}})
         res.status(200).json({"actualizado": true, data})
     } catch (error) {
         console.error(error," Error en update Empleado");

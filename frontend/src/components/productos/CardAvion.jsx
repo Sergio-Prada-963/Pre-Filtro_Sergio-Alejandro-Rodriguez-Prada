@@ -21,7 +21,6 @@ const CardAvion = ({data, setLoading})=>{
     const [newLongitud, setLongitud] = useState(Longitud) 
     const [newEnvergadura, setEnvergadura] = useState(Envergadura) 
     const [newproveedor, setproveedor] = useState(proveedor) 
-    const [newproveedorInfo, setproveedorInfo] = useState(proveedorInfo) 
     const [newValor, setValor] = useState(Valor) 
 
     const oneDelete = (_id)=>{
@@ -111,7 +110,7 @@ const CardAvion = ({data, setLoading})=>{
                     <p><span>Tipo Motor:</span> {newTipoDeMotor}</p>
                     <p><span>Velocidad Máxima:</span> {newVelocidadMaxima}</p>
                     <p><span>Valor:</span> {newValor}</p>
-                    <p><span>Proveedor:</span> {newproveedorInfo[0].Nombre}</p>
+                    <p><span>Proveedor:</span> {proveedorInfo[0].Nombre}</p>
                     <button type="submit" onClick={()=>oneDelete(_id)}>Eliminar</button>
                     <button onClick={()=>setEditing(true)}>Actualizar</button>
                 </details>

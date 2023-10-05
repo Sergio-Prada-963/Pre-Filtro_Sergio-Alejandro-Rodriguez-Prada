@@ -8,7 +8,7 @@ const router = Router();
 router.get('/all', getConceccionario);
 
 router.post('/',[
-    validJWT,
+    /* validJWT, */
     check('Nombre','Debe tener un Nombre').not().isEmpty(), 
     check('Ubicacion','Debe tener una Ubicacion').not().isEmpty(), 
     check('Cantidad_ventas','Debe tener una Cantidad_ventas').not().isEmpty(), 
@@ -16,13 +16,13 @@ router.post('/',[
 validateDocuments], postConceccionario);
 
 router.delete('/:id',[
-    validJWT,
+    /* validJWT, */
     param('id','No es un id Valido').isMongoId(),
     param('id','Debe tener un id').notEmpty(),
 validateDocuments], deleteConceccionario);
 
 router.patch('/:id',[
-    validJWT,
+    /* validJWT, */
     param('id','No es un id Valido').isMongoId(),
     param('id','Debe tener un id').notEmpty(),
 validateDocuments], updateConceccionario);

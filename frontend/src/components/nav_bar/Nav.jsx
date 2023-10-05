@@ -45,6 +45,7 @@ const NavBar = () => {
                     </div>
                 </nav>
                 <Switch>
+                    
                     <Route path="/productos">
                         <Productos />
                     </Route>

@@ -8,7 +8,7 @@ const router = Router();
 router.get('/all', getProveedores);
 
 router.post('/',[
-    validJWT,
+    /* validJWT, */
     check('Nombre','Debe tener un Nombre').notEmpty(), 
     check('Email','Debe tener un Email').notEmpty(), 
     check('Email','Debe ser un email valido').isEmail(), 
@@ -18,13 +18,13 @@ router.post('/',[
 validateDocuments], postProveedor);
 
 router.delete('/:id',[
-    validJWT,
+    /* validJWT, */
     param('id','No es un id valido').isMongoId(),
     param('id','Debe tener un id').notEmpty(),
 validateDocuments], deleteProveedor);
 
 router.patch('/:id',[
-    validJWT,
+    /* validJWT, */
     param('id','No es un id valido').isMongoId(),
     param('id','Debe tener un id').notEmpty(),
 validateDocuments], updateProveedor);
