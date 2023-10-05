@@ -25,10 +25,10 @@ export const getAviones = async (req, res = response) => {
 export const postAvion = async (req,res)=>{
     try {
         const collection = conexion('Aviones');
-        const {Marca, Modelo, NúmeroDeRegistro, Imagen, Tipo, AñoDeFabricación, NúmeroDeSerie, CapacidadDePasajeros, RangoDeVuelo, TipoDeMotor, VelocidadMáxima, AltitudMáximaDeCrucero, Longitud, Envergadura, proveedor, Valor, Estado} = req.body
+        const {Marca, Modelo, NumeroDeRegistro, Imagen, Tipo, AnoDeFabricacion, NumeroDeSerie, CapacidadDePasajeros, RangoDeVuelo, TipoDeMotor, VelocidadMaxima, AltitudMaximaDeCrucero, Longitud, Envergadura, proveedor, Valor, Estado} = req.body
         const existAvion = await collection.findOne({Marca,Modelo})
         if (existAvion) return res.json({error: `El avion ${Marca} ya existe`});
-        const data = await collection.insertOne({Marca, Modelo, NúmeroDeRegistro, Imagen, Tipo, AñoDeFabricación, NúmeroDeSerie, CapacidadDePasajeros, RangoDeVuelo, TipoDeMotor, VelocidadMáxima, AltitudMáximaDeCrucero, Longitud, Envergadura, proveedor, Valor, Estado});
+        const data = await collection.insertOne({Marca, Modelo, NumeroDeRegistro, Imagen, Tipo, AnoDeFabricacion: Number(AnoDeFabricacion), NumeroDeSerie, CapacidadDePasajeros: Number(CapacidadDePasajeros), RangoDeVuelo, TipoDeMotor, VelocidadMaxima, AltitudMaximaDeCrucero, Longitud, Envergadura, proveedor: new ObjectId(proveedor), Valor, Estado});
         res.status(200).json(data)
     } catch (error) {
         console.error(error, "Error en post Avion");
@@ -50,10 +50,10 @@ export const updateAvion = async (req,res)=>{
     try {
         const collection = conexion('Aviones');
         const {id} = req.params;
-        const {Marca, Modelo, NúmeroDeRegistro, Imagen, Tipo, AñoDeFabricación, NúmeroDeSerie, CapacidadDePasajeros, RangoDeVuelo, TipoDeMotor, VelocidadMáxima, AltitudMáximaDeCrucero, Longitud, Envergadura, proveedor, Valor, Estado} = req.body
+        const {Marca, Modelo, NumeroDeRegistro, Imagen, Tipo, AnoDeFabricacion, NumeroDeSerie, CapacidadDePasajeros, RangoDeVuelo, TipoDeMotor, VelocidadMaxima, AltitudMaximaDeCrucero, Longitud, Envergadura, proveedor, Valor, Estado} = req.body
         const existeAvion = await collection.findOne({_id: new ObjectId(id)});
         if (!existeAvion) return res.json({error: `El avion ${Marca} ${Modelo} no existe`});
-        const data = await collection.updateOne({_id: new ObjectId(id)},{$set: {Marca, Modelo, NúmeroDeRegistro, Imagen, Tipo, AñoDeFabricación, NúmeroDeSerie, CapacidadDePasajeros, RangoDeVuelo, TipoDeMotor, VelocidadMáxima, AltitudMáximaDeCrucero, Longitud, Envergadura, proveedor, Valor, Estado}})
+        const data = await collection.updateOne({_id: new ObjectId(id)},{$set: {Marca, Modelo, NumeroDeRegistro, Imagen, Tipo, AnoDeFabricacion, NumeroDeSerie, CapacidadDePasajeros, RangoDeVuelo, TipoDeMotor, VelocidadMaxima, AltitudMaximaDeCrucero, Longitud, Envergadura, proveedor, Valor, Estado}})
         res.status(200).json({"Actualizado": true, data})
     } catch (error) {
         console.error(error, "Error en update Avion");

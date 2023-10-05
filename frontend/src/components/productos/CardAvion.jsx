@@ -1,5 +1,4 @@
 const CardAvion = ({data})=>{
-    console.log(data, "sldjhfksdhfkjdskj");
     const {Imagen, AltitudMáximaDeCrucero, AñoDeFabricación, CapacidadDePasajeros, Envergadura, Longitud, Marca, Modelo, NúmeroDeRegistro, NúmeroDeSerie, RangoDeVuelo, Tipo, TipoDeMotor, Valor, VelocidadMáxima, proveedorInfo} = data;
     return (
         <div className="content">

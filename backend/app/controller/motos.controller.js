@@ -24,10 +24,10 @@ export const getMotos = async (req,res)=>{
 export const postMotos = async (req,res)=>{
     try {
         const collection = conexion('Motos');
-        const {Marca, Modelo, Año, NumeroDeSerie, Tipo, Cilindraje, PotenciaHp, Color, Precio, Estado, proveedor, Imagen} = req.body;
+        const {Marca, Modelo, Ano, NumeroDeSerie, Tipo, Cilindraje, PotenciaHP, Color, Precio, Estado, proveedor, Imagen} = req.body;
         const existMoto = await collection.findOne({Marca, Modelo});
         if (existMoto) return res.json({error: `La moto ${Marca} ya existe`});
-        const data = await collection.insertOne({Marca, Modelo, Año, NumeroDeSerie, Tipo, Cilindraje, PotenciaHp, Color, Precio, Estado, proveedor, Imagen});
+        const data = await collection.insertOne({Marca, Modelo, Ano: Number(Ano), NumeroDeSerie, Tipo, Cilindraje: Number(Cilindraje), PotenciaHP: Number(PotenciaHP), Color, Precio: Number(Precio), Estado, proveedor: new ObjectId(proveedor), Imagen});
         res.status(200).json(data);
     } catch (error) {
         console.error(error," Error en pos tMotos");
@@ -49,10 +49,10 @@ export const updateMoto = async (req,res)=>{
     try {
         const collection = conexion('Motos');
         const {id} = req.params;
-        const {Marca, Modelo, Año, NumeroDeSerie, Tipo, Cilindraje, PotenciaHp, Color, Precio, Estado, proveedor, Imagen} = req.body
+        const {Marca, Modelo, Ano, NumeroDeSerie, Tipo, Cilindraje, PotenciaHP, Color, Precio, Estado, proveedor, Imagen} = req.body
         const existMoto = await collection.findOne({_id: new ObjectId(id)});
         if (!existMoto) return res.json({error: `La moto ${Marca} con el id ${id} no existe`})
-        const data = await collection.updateOne({_id: new ObjectId(id)},{$set: {Marca, Modelo, Año, NumeroDeSerie, Tipo, Cilindraje, PotenciaHp, Color, Precio, Estado, proveedor, Imagen}})
+        const data = await collection.updateOne({_id: new ObjectId(id)},{$set: {Marca, Modelo, Ano, NumeroDeSerie, Tipo, Cilindraje, PotenciaHP, Color, Precio, Estado, proveedor, Imagen}})
         res.status(200).json({"actualizado": true, data})
     } catch (error) {
         console.error(error," Error en update Moto");

@@ -2,6 +2,8 @@ import axios from "axios";
 import React,{useEffect,useState} from "react";
 import Card from "./CardMoto";
 import CardAvion from "./CardAvion"
+import ModalMoto from "./AddMoto"
+import ModalAvion from "./AddAvion";
 
 const Productos = ()=>{
     const [isLoading, setLoading] = useState(true);
@@ -19,7 +21,6 @@ const Productos = ()=>{
                     });
                     axios.get(`http://localhost:3309/api/aviones/all`)
                     .then((response)=>{
-                        console.log(response.data);
                         setDataAvion(response.data.aviones)
                         if(response) setLoading(false);
                         else console.warn("El api no funshion ;V");
@@ -68,6 +69,8 @@ const Productos = ()=>{
                     <option value="terrestre">Terrestre</option>
                 </select>
             </div>
+            <ModalMoto/>
+            <ModalAvion/>
             {content}
         </React.Fragment>
     )

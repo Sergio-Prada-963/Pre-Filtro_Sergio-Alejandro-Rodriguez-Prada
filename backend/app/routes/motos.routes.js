@@ -8,17 +8,17 @@ const router = Router();
 router.get('/all', getMotos);
 
 router.post('/',[
-    validJWT,
+    /* validJWT, */
     check('Marca','Debe tener una Marca').notEmpty(), 
     check('Modelo','Debe tener un Modelo').notEmpty(), 
-    check('Año','Debe tener un Año').notEmpty(), 
-    check('Año','Debe ser un numero').isInt(), 
+    check('Ano','Debe tener un Ano').notEmpty(), 
+    check('Ano','Debe ser un numero').isInt(), 
     check('NumeroDeSerie','Debe tener un NumeroDeSerie').notEmpty(), 
     check('Tipo','Debe tener un Tipo').notEmpty(), 
     check('Cilindraje','Debe tener un Cilindraje').notEmpty(), 
     check('Cilindraje','Debe ser un numero').isInt(), 
-    check('PotenciaHp','Debe tener una PotenciaHp').notEmpty(), 
-    check('PotenciaHp','Debe ser un numero').isInt(), 
+    check('PotenciaHP','Debe tener una PotenciaHP').notEmpty(), 
+    check('PotenciaHP','Debe ser un numero').isInt(), 
     check('Color','Debe tener un Color').notEmpty(), 
     check('Precio','Debe tener un Precio').notEmpty(), 
     check('Precio','Debe ser un numero').isInt(), 

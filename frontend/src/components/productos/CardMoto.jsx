@@ -1,6 +1,5 @@
 const Card = ({data})=>{
-    console.log(data, "sldjhfksdhfkjdskj");
-    const {Imagen, Marca, Modelo, Color, PotenciaHP, Precio, Tipo, Cilindraje, Año, NúmeroDeSerie, proveedorInfo} = data;
+    const {Imagen, Marca, Modelo, Color, PotenciaHP, Precio, Tipo, Cilindraje, Ano, NumeroDeSerie, proveedorInfo} = data;
     return (
         <div className="content">
             <div className="cont-image">
@@ -17,8 +16,8 @@ const Card = ({data})=>{
                     <p><span>Precio:</span> {Precio}</p>
                     <p><span>Tipo:</span> {Tipo}</p>
                     <p><span>Cilindraje:</span> {Cilindraje}</p>
-                    <p><span>Año:</span> {Año}</p>
-                    <p><span>Número </span>De Serie: {NúmeroDeSerie}</p>
+                    <p><span>Año:</span> {Ano}</p>
+                    <p><span>Número De Serie:</span> {NumeroDeSerie}</p>
                     <p><span>Proveedor:</span> {proveedorInfo[0].Nombre}</p>
                 </details>
             </div>
