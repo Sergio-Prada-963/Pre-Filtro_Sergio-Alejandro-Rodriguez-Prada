@@ -52,7 +52,7 @@ export const updateMoto = async (req,res)=>{
         const {Marca, Modelo, Ano, NumeroDeSerie, Tipo, Cilindraje, PotenciaHP, Color, Precio, Estado, proveedor, Imagen} = req.body
         const existMoto = await collection.findOne({_id: new ObjectId(id)});
         if (!existMoto) return res.json({error: `La moto ${Marca} con el id ${id} no existe`})
-        const data = await collection.updateOne({_id: new ObjectId(id)},{$set: {Marca, Modelo, Ano, NumeroDeSerie, Tipo, Cilindraje, PotenciaHP, Color, Precio, Estado, proveedor, Imagen}})
+        const data = await collection.updateOne({_id: new ObjectId(id)},{$set: {Marca, Modelo, Ano, NumeroDeSerie, Tipo, Cilindraje, PotenciaHP, Color, Precio, Estado, proveedor: new ObjectId(proveedor), Imagen}})
         res.status(200).json({"actualizado": true, data})
     } catch (error) {
         console.error(error," Error en update Moto");

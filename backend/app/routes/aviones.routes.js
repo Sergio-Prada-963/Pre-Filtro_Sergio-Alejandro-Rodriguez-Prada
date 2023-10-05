@@ -36,7 +36,7 @@ router.delete('/:id',[
 validateDocuments], deleteAvion);
 
 router.patch('/:id',[
-    validJWT,
+    /* validJWT, */
     param('id','No es un id valido').isMongoId(),
     param('id','Debe tener un id').notEmpty(),
 validateDocuments], updateAvion);
