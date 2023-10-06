@@ -11,7 +11,7 @@ router.post('/',[
     /* validJWT, */
     check('Nombre','Debe tener un Nombre').notEmpty(), 
     check('NumeroId','Debe tener un NumeroId').notEmpty(), 
-    check('Teléfono','Debe tener un Teléfono').notEmpty(), 
+    check('Telefono','Debe tener un Telefono').notEmpty(), 
     check('Cargo','Debe tener un Cargo').notEmpty(), 
     check('Email','Debe tener un Email').notEmpty(), 
     check('Conceccionario','Debe tener un Conceccionario').notEmpty(), 

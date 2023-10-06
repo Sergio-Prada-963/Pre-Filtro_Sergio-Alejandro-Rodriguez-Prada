@@ -1,5 +1,7 @@
 import axios from "axios";
 import React,{useEffect,useState} from "react";
+import CardEmpleados from "./CardEmpleados";
+import ModalEmpleado from "./ModalEmpleados";
 
 const Empleados = ()=>{
     const [isLoading, setLoading] = useState(true);
@@ -11,7 +13,7 @@ const Empleados = ()=>{
                 try {
                     axios.get(`http://localhost:3309/api/empleados/all`)
                     .then((response)=>{
-                        setDataEmpelado(response.data.empleados);
+                        setDataEmpelado(response.data);
                         setLoading(false)
                         if(!response) console.warn("El api no responde");
                     })
@@ -37,17 +39,16 @@ const Empleados = ()=>{
                     <thead>
                       <tr>
                         <th>Nombre</th>
-                        <th>Teléfono</th>
+                        <th>Telefono</th>
                         <th>Cargo</th>
                         <th>Email</th>
                         <th>Conceccionario</th>
-                        <th>NumeroId</th>
                         <th>Estado</th>
                       </tr>
                     </thead>
                     <tbody>
                         {dataEmpleados.map((e)=>(
-                            <Card data={e} setLoading={setLoading} />
+                            <CardEmpleados data={e} setLoading={setLoading} />
                         ))}
                     </tbody>
                 </table>
@@ -58,11 +59,11 @@ const Empleados = ()=>{
     return (
         <React.Fragment>
             <div className="section">
-                <h1>Conceccionarios</h1>
+                <h1>Empleados</h1>
             </div>
-            <div className="parallax2">
+            <div className="parallax4">
                 <div className="sombra"></div>
-                <h1>Todos los datos sobre sus conceccionarios</h1>
+                <h1>Todos tus empleados</h1>
             </div>
             <div className="filtro">
                 <select id="select">
@@ -72,7 +73,7 @@ const Empleados = ()=>{
                     <option value="cantidadStock">Opciones</option>
                 </select>
             </div>
-            <ModalConce />
+            <ModalEmpleado />
             {content}
         </React.Fragment>
     )

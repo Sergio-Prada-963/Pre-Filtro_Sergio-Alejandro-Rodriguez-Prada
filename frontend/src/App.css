@@ -265,3 +265,23 @@ summary{
   background-size: cover;
   position: relative;
 }
+.parallax4{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  background-image: url(./Assets/parallax4.jpeg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.parallax5{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  background-image: url(./Assets/parallax5.webp);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}

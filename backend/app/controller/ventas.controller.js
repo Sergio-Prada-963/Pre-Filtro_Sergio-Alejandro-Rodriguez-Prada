@@ -19,7 +19,7 @@ export const getVentas = async (req, res) => {
               from: 'Motos', 
               localField: 'Producto',
               foreignField: '_id', 
-              as: 'motosInfo', 
+              as: 'motoInfo', 
             },
           },
           {
@@ -27,7 +27,7 @@ export const getVentas = async (req, res) => {
               from: 'Aviones', 
               localField: 'Producto',
               foreignField: '_id', 
-              as: 'avionesInfo', 
+              as: 'avionInfo', 
             },
           },
           {
@@ -105,7 +105,7 @@ export const postVentas = async (req, res) => {
 			Empleado: new ObjectId(Empleado),
 			Conceccionario: new ObjectId(Conceccionario),
 		});
-		await updateVentas.updateOne({ _id: new ObjectId(Conceccionario) }, { $inc: { Cantidad_ventas: 1 } });
+		await updateVentas.updateOne({ _id: new ObjectId(Conceccionario) }, { $inc: { Cantidad_ventas: Number(1) } });
 		res.status(200).json(data);
 	} catch (error) {
 		console.error(error, " Error en post Ventas");
@@ -171,7 +171,7 @@ export const updateVenta = async (req, res) => {
             .toArray();
         const position = `productos.${indice[0].indice[0]}.cantidad`;
         await updateInventario.updateOne({ _id: concecciona.Inventario }, { $inc: { [position]: -1 } });
-        await updateVentas.updateOne({ _id: new ObjectId(Conceccionario) }, { $inc: { Cantidad_ventas: 1 } });
+        await updateVentas.updateOne({ _id: new ObjectId(Conceccionario) }, { $inc: { Cantidad_ventas: Number(1) } });
         //restauracion numero stock
         const restaurarConccecionario = await updateVentas.findOne({_id: existVenta.Conceccionario})
         const restauracionIndice = await updateInventario

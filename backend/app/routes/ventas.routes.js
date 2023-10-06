@@ -8,7 +8,7 @@ const router = Router();
 router.get('/all', getVentas);
 
 router.post('/',[
-    validJWT,
+    /* validJWT, */
     check('Fecha','Debe tener una Fecha').notEmpty(), 
     check('Fecha','Debe ser una fecha ISO valida').isISO8601(), 
     check('Cliente','Debe tener un Cliente').notEmpty(), 
@@ -22,13 +22,13 @@ router.post('/',[
 validateDocuments], postVentas);
 
 router.delete('/:id',[
-    validJWT,
+    /* validJWT, */
     param('id','No es un id valido').isMongoId(),
     param('id','Debe tener un id').notEmpty(),
 validateDocuments], deleteVenta);
 
 router.patch('/:id',[
-    validJWT,
+    /* validJWT, */
     param('id','No es un id valido').isMongoId(),
     param('id','Debe tener un id').notEmpty(),
 validateDocuments], updateVenta);
