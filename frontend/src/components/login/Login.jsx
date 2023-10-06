@@ -1,72 +1,109 @@
-import React from "react";
+import React, {useState} from "react";
+import axios from "axios";
+import { useHistory } from "react-router-dom";
+import './style.css'
 
 const Login = () => {
+    const [isLoading, setLoading] = useState(true);
+    const [clases, setclases] = useState('');
+    const [conceccionarios, setConceccionarios] = useState([]);
+    const [email, setEmail] = useState('');
+    const [contrasena, setContrasena] = useState('');
+    let history = useHistory();
+    if(isLoading){
+    async function fetchData(){
+        try {
+            axios.get(`http://localhost:3309/api/conceccionarios/all`)
+            .then((response)=>{
+                setConceccionarios(response.data.conceccionarios)
+                setLoading(false)
+            });
+        } catch (error) {
+            console.error(error," algo anda mal -_-");
+        }
+    }fetchData()}
+    
+    const sendLogin = ()=>{
+        console.log({
+            email,
+            contrasena
+        });
+        axios.post(`http://localhost:3309/api/login`,
+            {
+                Email: email,
+                NumeroId: contrasena
+            })
+            .then((response)=>{
+              if(response){ 
+                document.cookie = (`tokenX=${response.data.token}`);
+                history.push('/productos')
+              }
+              else {console.warn("El api no funshion ;V")}
+              console.log(response);
+          }).catch(function (error) {
+            console.log(error);
+            if(error.response.data.errors === Array){
+                alert(error.response.data.errors.map((e)=>e.msg))
+            }else {
+                alert(error.response.data.message)
+            }
+          })
+    }
+
     return (
-        <React.Fragment>
-            <h2>Weekly Coding Challenge #1: Sign in/up Form</h2>
-            <div class="container" id="container">
-                <div class="form-container sign-up-container">
+        <div className="body">
+            <h2>Bienvenido...</h2>
+            <div className={clases} id="container">
+                <div className="form-container sign-up-container">
                     <form action="#">
-                        <h1>Create Account</h1>
-                        <div class="social-container">
-                            <a href="#" class="social">
-                                <i class="fab fa-facebook-f"></i>
-                            </a>
-                            <a href="#" class="social">
-                                <i class="fab fa-google-plus-g"></i>
-                            </a>
-                            <a href="#" class="social">
-                                <i class="fab fa-linkedin-in"></i>
-                            </a>
+                        <h1>Crear Cuenta</h1>
+                        <div className="social-container">
                         </div>
-                        <span>or use your email for registration</span>
-                        <input type="text" placeholder="Name" />
-                        <input type="email" placeholder="Email" />
-                        <input type="password" placeholder="Password" />
-                        <button>Sign Up</button>
+                        <span>Registrate con tu email</span>
+                        <input type="text" placeholder="Nombre" required />
+                        <input type="email" placeholder="Email" required />
+                        <input type="number" placeholder="Telefono" required />
+                        <input type="password" placeholder="Contraseña" required />
+                        <input type="text" placeholder="Cargo" required />
+                        <span>Selecciona el conceccionario</span>
+                        <select>
+                            {conceccionarios.map((e)=>(
+                                <option value={e._id}>{e.Nombre}</option>
+                            ))}
+                        </select>
+                        <button type="submit">Registrarse</button>
                     </form>
                 </div>
-                <div class="form-container sign-in-container">
+                <div className="form-container sign-in-container">
                     <form action="#">
-                        <h1>Sign in</h1>
-                        <div class="social-container">
-                            <a href="#" class="social">
-                                <i class="fab fa-facebook-f"></i>
-                            </a>
-                            <a href="#" class="social">
-                                <i class="fab fa-google-plus-g"></i>
-                            </a>
-                            <a href="#" class="social">
-                                <i class="fab fa-linkedin-in"></i>
-                            </a>
+                        <h1>Iniciar Sesion</h1>
+                        <div className="social-container">
                         </div>
-                        <span>or use your account</span>
-                        <input type="email" placeholder="Email" />
-                        <input type="password" placeholder="Password" />
-                        <a href="#">Forgot your password?</a>
-                        <button>Sign In</button>
+                        <span>Ingresa a tu cuenta</span>
+                        <input type="email" placeholder="Email" required onChange={(e)=>setEmail(e.target.value)} />
+                        <input type="password" placeholder="Contraseña" required onChange={(e)=>setContrasena(e.target.value)}/>
+                        <button onClick={()=>sendLogin()} >Ingresar</button>
                     </form>
                 </div>
-                <div class="overlay-container">
-                    <div class="overlay">
-                        <div class="overlay-panel overlay-left">
-                            <h1>Welcome Back!</h1>
+                <div className="overlay-container">
+                    <div className="overlay">
+                        <div className="overlay-panel overlay-left">
+                            <h1>Registro!</h1>
                             <p>
-                                To keep connected with us please login with your
-                                personal info
+                            Ingresa los siguientes datos para crear tu cuenta
                             </p>
-                            <button class="ghost" id="signIn">
-                                Sign In
+                            <button className="ghost" id="signIn" onClick={()=>setclases('')}>
+                                Ya tienes Cuenta?
                             </button>
                         </div>
-                        <div class="overlay-panel overlay-right">
-                            <h1>Hello, Friend!</h1>
+                        <div className="overlay-panel overlay-right">
+                            <h1>Hello, My Friend!</h1>
                             <p>
-                                Enter your personal details and start journey
-                                with us
+                                No tienes cuenta? 
+                                Registrate...
                             </p>
-                            <button class="ghost" id="signUp">
-                                Sign Up
+                            <button className="ghost" id="signUp" onClick={()=>setclases('right-panel-active')}>
+                                Crear
                             </button>
                         </div>
                     </div>
@@ -75,21 +112,10 @@ const Login = () => {
 
             <footer>
                 <p>
-                    Created with <i class="fa fa-heart"></i> by
-                    <a target="_blank" href="https://florin-pop.com">
-                        Florin Pop
-                    </a>
-                    - Read how I created this and how you can join the challenge
-                    <a
-                        target="_blank"
-                        href="https://www.florin-pop.com/blog/2019/03/double-slider-sign-in-up-form/"
-                    >
-                        here
-                    </a>
-                    .
+                    Created with <i className="fa fa-heart"></i> Alejandro
                 </p>
             </footer>
-        </React.Fragment>
+        </div>
     );
 };
 export default Login;

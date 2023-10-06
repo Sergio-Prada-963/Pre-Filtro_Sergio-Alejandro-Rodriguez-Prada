@@ -4,10 +4,10 @@ import bcryptjs from 'bcryptjs';
 import generateJWT from '../helpers/generate.JWT.js';
 
 const login = async (req,res=response)=>{
-    const {email, NumeroId} = req.body;
+    const {Email, NumeroId} = req.body;
     const collection = conexion('Empleados')
     try {
-        const usuario = await collection.findOne({email});
+        const usuario = await collection.findOne({Email});
         if(!usuario)
             return res.status(400).json({message: 'Usuario no es correcto'});
         if(!usuario.Estado)

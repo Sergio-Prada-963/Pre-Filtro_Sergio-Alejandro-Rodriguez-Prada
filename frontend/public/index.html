@@ -53,7 +53,7 @@
                     }
                 );
             };
-            if(document.getElementById(canvas)){
+            
             function init(elemid) {
                 let canvas = document.getElementById(elemid),
                     c = canvas.getContext("2d"),
@@ -65,6 +65,8 @@
             }
 
             window.onload = function () {
+                /* console.log(document.getElementById('canvas'), "eeeeo"); */
+                if(document.getElementById('canvas')){
                 let c = init("canvas").c,
                     canvas = init("canvas").canvas,
                     w = (canvas.width = 70),
@@ -356,23 +358,8 @@
 
                 loop();
                 setInterval(loop, 1 / 60);
+            }
             };
-        }
-        </script>
-        <script>
-            if(document.getElementById("signUp")){
-            const signUpButton = document.getElementById("signUp");
-            const signInButton = document.getElementById("signIn");
-            const container = document.getElementById("container");
-
-            signUpButton.addEventListener("click", () => {
-                container.classList.add("right-panel-active");
-            });
-
-            signInButton.addEventListener("click", () => {
-                container.classList.remove("right-panel-active");
-            });
-        }
         </script>
     </body>
 </html>

@@ -31,7 +31,7 @@ export const getEmpleados = async (req, res) => {
 export const postEmpleado = async (req, res) => {
 	try {
 		const collection = conexion("Empleados");
-		const { Nombre, NumeroId, Telefono, Cargo, Email, Conceccionario, Estado } = req.body;
+		const { Nombre, NumeroId, Telefono, Cargo, Email, Conceccionario } = req.body;
 		const salt = bcryptjs.genSaltSync();
 		req.body.NumeroId = bcryptjs.hashSync(NumeroId, salt);
 		const data = await collection.insertOne({
@@ -41,7 +41,7 @@ export const postEmpleado = async (req, res) => {
 			Cargo,
 			Email,
 			Conceccionario: new ObjectId(Conceccionario),
-			Estado,
+			Estado: true,
 		});
 		res.status(200).json(data);
 	} catch (error) {
