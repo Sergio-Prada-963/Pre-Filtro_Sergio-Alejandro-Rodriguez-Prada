@@ -41,4 +41,190 @@ router.patch('/:id',[
     param('id','Debe tener un id').notEmpty(),
 validateDocuments], updateAvion);
 
+/**
+     * @swagger
+     * components:
+     *  schemas:
+     *      Aviones:
+     *          type: object
+     *          properties:
+     *              Marca:
+     *                  type: string
+     *                  description: Marca del avion
+     *              Modelo:
+     *                  type: string
+     *                  description: Numero de modelo del avion
+     *              NumeroDeRegistro:
+     *                  type: string
+     *                  description: Numero de registro del avion
+     *              Imagen:
+     *                  type: string
+     *                  description: Img correspondiente al avion
+     *              Tipo:
+     *                  type: string
+     *                  description: Tipo de avion
+     *              AnoDeFabricacion:
+     *                  type: number
+     *                  description: Año en el cual fue fabricado
+     *              NumeroDeSerie:
+     *                  type: string
+     *                  description: Numero de serie del avion
+     *              CapacidadDePasajeros:
+     *                  type: number
+     *                  description: Cantidad de pasajeros que puede llevar el avion
+     *              RangoDeVuelo:
+     *                  type: string
+     *                  description: Rabgo de vuelo del avion
+     *              TipoDeMotor:
+     *                  type: string
+     *                  description: Tipo de motor del avion
+     *              VelocidadMaxima:
+     *                  type: string
+     *                  description: Velocidad maxima a la cual puede ir el avion
+     *              AltitudMaximaDeCrucero:
+     *                  type: string
+     *                  description: Altura maxima que puede alcanzar
+     *              Longitud:
+     *                  type: string
+     *                  description: Longitud del avion
+     *              Envergadura:
+     *                  type: string
+     *                  description: Ancho total del avion
+     *              proveedor:
+     *                  type: string
+     *                  description: Numero id del proveedor
+     *              Valor:
+     *                  type: string
+     *                  description: Valor del avion
+     *              Estado:
+     *                  type: string
+     *                  description: Si el avion esta disponible
+     *          required:
+     *              - Marca
+     *              - Modelo
+     *              - NumeroDeRegistro
+     *              - Imagen
+     *              - Tipo
+     *              - AnoDeFabricacion
+     *              - NumeroDeSerie
+     *              - CapacidadDePasajeros
+     *              - RangoDeVuelo
+     *              - TipoDeMotor
+     *              - VelocidadMaxima
+     *              - AltitudMaximaDeCrucero
+     *              - Longitud
+     *              - Envergadura
+     *              - proveedor
+     *              - Valor
+     *              - Estado
+     *          example: 
+     *              Marca: "Gulfstream"
+     *              Modelo: "G650"
+     *              NumeroDeRegistro: "N5432"
+     *              Imagen: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.jetmonde-executive.com%2Fwp-content%2Fuploads%2F2020%2F07%2FGULFSTREAM-G650.png&f=1&nofb=1&ipt=bff064d2c807d2e6085e5550080420c0f29b86da1eb03ae8bf4c6e54458be9b7&ipo=images"
+     *              Tipo: "Avión Privado"
+     *              AnoDeFabricacion: 2018
+     *              NumeroDeSerie: "G650-5432"
+     *              CapacidadDePasajeros: 19
+     *              RangoDeVuelo: "13,890 km"
+     *              TipoDeMotor: "Motores a reacción Rolls-Royce BR725"
+     *              VelocidadMaxima: "1,025 km/h"
+     *              AltitudMaximaDeCrucero: "15,545 metros"
+     *              Longitud: "30.4 metros"
+     *              Envergadura: "30.3 metros"
+     *              proveedor: "65130a9acb3364ee6e346cb5"
+     *              Valor: "$70,000,000"
+     *              Estado: true
+     *              
+     */
+
+
+
+     /**
+     * @swagger
+     * /api/aviones/all:
+     *  get:
+     *      summary: Retornar todos los aviones
+     *      tags: [Aviones]
+     *      responses:
+     *          200:
+     *              description: Todos los aviones!
+     *              content: 
+     *                  application/json:
+     *                      schema:
+     *                          type: array
+     *                          items:
+     *                              $ref: '#/components/schemas/Aviones'
+     */
+
+          
+
+    /**
+     * @swagger
+     * /api/aviones/:
+     *  post:
+     *      summary: Añade un nuevo avion
+     *      tags: [Aviones]
+     *      requestBody:
+     *          required: true 
+     *          content:
+     *              application/json:
+     *                  schema:
+     *                      type: object
+     *                      $ref: '#/components/schemas/Aviones'
+     *      responses:
+     *          200:
+     *              description: Nuevo avion añadido!
+     */
+
+
+
+     /**
+     * @swagger
+     * /api/aviones/{id}:
+     *  delete:
+     *      summary: Eliminar un avion
+     *      tags: [Aviones]
+     *      parameters:
+     *          - in: path
+     *            name: id
+     *            schema: 
+     *                type: string
+     *            required: true
+     *            description: El id del avion
+     *      responses:
+     *          200:
+     *              description: Avion eliminado
+     *          404:
+     *              description: El avion no existe
+     */
+
+
+          /**
+     * @swagger
+     * /api/aviones/{id}:
+     *  patch:
+     *      summary: Actualizar un Avion
+     *      tags: [Aviones]
+     *      parameters:
+     *          - in: path
+     *            name: id
+     *            schema: 
+     *                type: string
+     *            required: true
+     *            description: El id del avion
+     *      requestBody:
+     *          required: true 
+     *          content:
+     *              application/json:
+     *                  schema:
+     *                      type: object
+     *                      $ref: '#/components/schemas/Aviones'
+     *      responses:
+     *          200:
+     *              description: Avion Actualizado
+     *          404:
+     *              description: Avion no encontrado
+     */
+
 export default router;

@@ -1,6 +1,8 @@
 import express from "express";
 import cookieParser from "cookie-parser";
 import cors from "cors";
+import swaggerUI from 'swagger-ui-express';
+import swaggerSpec from '../swaggerConfig.js';
 
 import roterMotos from './routes/motos.routes.js'
 import routerAviones from "./routes/aviones.routes.js";
@@ -44,7 +46,8 @@ class Server{
         this.app.use(this.path.inventarios, routerInventario);
         this.app.use(this.path.ventas, routerVentas);
         this.app.use(this.path.empleado, routerEmpleado);
-        this.app.use(this.path.login, routerLogin)
+        this.app.use(this.path.login, routerLogin);
+        this.app.use('/api-docs', swaggerUI.serve, swaggerUI.setup(swaggerSpec));
     }
     listen(){
         this.app.listen(this.port,()=>{

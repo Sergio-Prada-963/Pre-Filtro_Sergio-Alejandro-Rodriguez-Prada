@@ -1,0 +1,47 @@
+openapi: 3.0.0
+info:
+  title: Serviteca Bucaramanga API REST
+  description: |-
+    Esta es una API REST que fue desarrollada para sistematizar y controlar diferentes procesos de mucha importancia al interior de una empresa como lo pueden ser las ventas y los inventarios.
+
+    Este proyecto está principalmente enfocado a pequeñas y medianas empresas, como lo puede ser una Serviteca, que requieran de un software de facturación y gestión de inventario y/o presente los siguientes inconvenientes.
+    
+    - Negocios pequeños sin sistema de Gestión de Inventario.
+    - No hay datos concecutivos y ordenados para realizar análisis de las ventas.
+    - Inventario constantemente desactualizado, lo que representa pérdidas en ventas.
+    - Realizar informes y guardar datos de manera manual, consumiendo más tiempo y dinero.
+  version: 0.1.9
+
+
+paths:
+
+#Authentication
+  /api/v1/auth:
+    post:
+      tags:
+        - Autenticación
+      summary: Devuelve el JWT requerido
+      description: Crear un nuevo registro de cliente
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                email:
+                  type: string
+                  example: pedrosol@example.com
+                password:
+                  type: string
+                  example: '123456'
+              
+      responses:
+        '200':
+          description: Cliente añadido a la base de datos
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Auth'
+        '500':
+          description: Error del servidor

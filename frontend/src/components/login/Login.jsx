@@ -37,6 +37,7 @@ const Login = () => {
               if(response){ 
                 document.cookie = (`tokenX=${response.data.token}`);
                 history.push('/productos')
+                window.location.reload()
               }
               else {console.warn("El api no funshion ;V")}
               console.log(response);
@@ -71,7 +72,7 @@ const Login = () => {
                                 <option value={e._id}>{e.Nombre}</option>
                             ))}
                         </select>
-                        <button type="submit">Registrarse</button>
+                        <button type="button">Registrarse</button>
                     </form>
                 </div>
                 <div className="form-container sign-in-container">
@@ -82,7 +83,7 @@ const Login = () => {
                         <span>Ingresa a tu cuenta</span>
                         <input type="email" placeholder="Email" required onChange={(e)=>setEmail(e.target.value)} />
                         <input type="password" placeholder="Contraseña" required onChange={(e)=>setContrasena(e.target.value)}/>
-                        <button onClick={()=>sendLogin()} >Ingresar</button>
+                        <button type="button" onClick={()=>sendLogin()} >Ingresar</button>
                     </form>
                 </div>
                 <div className="overlay-container">
